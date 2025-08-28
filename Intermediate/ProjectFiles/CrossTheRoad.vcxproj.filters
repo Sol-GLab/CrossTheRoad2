@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CrossTheRoad.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A4D8D3B9-9E2A-4DD8-92DA-7F93CA0CE7BE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CrossTheRoad.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CrossTheRoadEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{29500523-7459-49B0-840C-4201067FE26F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CrossTheRoad">
+      <UniqueIdentifier>{8FCC5B7C-3643-4521-BFC7-6DC4A3B66486}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CrossTheRoad\CrossTheRoad.Build.cs">
+      <Filter>Source\CrossTheRoad</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CrossTheRoad\CrossTheRoad.cpp">
+      <Filter>Source\CrossTheRoad</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossTheRoad\CrossTheRoad.h">
+      <Filter>Source\CrossTheRoad</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossTheRoad\CrossTheRoadGameModeBase.cpp">
+      <Filter>Source\CrossTheRoad</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossTheRoad\CrossTheRoadGameModeBase.h">
+      <Filter>Source\CrossTheRoad</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossTheRoad\Private">
+      <UniqueIdentifier>{CBF0D65D-1461-4EE6-9053-9B7C235273B4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\CarActor.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\CarActorGenerator.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\FinishZoneActor.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\PlayerCharacter.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\RoadActor.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\RoadGenerator.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrossTheRoad\Private\SafeRoadActor.cpp">
+      <Filter>Source\CrossTheRoad\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CrossTheRoad\Public">
+      <UniqueIdentifier>{9F8D4BD1-734C-4823-8ACF-5F0328DCDDAA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\CarActor.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\CarActorGenerator.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\FinishZoneActor.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\PlayerCharacter.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\RoadActor.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\RoadGenerator.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CrossTheRoad\Public\SafeRoadActor.h">
+      <Filter>Source\CrossTheRoad\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
